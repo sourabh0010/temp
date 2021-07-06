@@ -78,7 +78,7 @@ $(document).ready(function () {
     
 
     $(window).load(function (event) {
-        // $('#preloader').fadeOut(100);
+        $('#preloader').fadeOut(1000);
         
         MenuResponsive();
         HeaderScroll();
